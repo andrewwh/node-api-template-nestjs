@@ -1,0 +1,15 @@
+{
+    "host": "localhost",
+    "port": 8080,
+    "basePath": "/api/template",
+    "logging": {
+        "level": "debug",
+        "file": {
+            "path": "./logs/api-template.log",
+            "format": "structured"
+        },
+        "stdout": {
+            "format": "pretty"
+        }
+    }    
+}
