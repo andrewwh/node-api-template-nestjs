@@ -2,9 +2,9 @@
 This is a simple NestJs application with a few extras and prefered structure.
 
 ## Extras
-* Configuration
-* Logging with Bunyan
- 
+* See [Configuration](CONFIG.md)
+* See [Structure Logging](LOGGING.md)
+
 
 ## Installation
 
