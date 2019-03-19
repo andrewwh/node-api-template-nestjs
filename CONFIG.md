@@ -2,7 +2,7 @@
 The configuration system uses a mix of configuration files and environment variables.
 
 ## Configuration file heirarchy
-Primarily configuration is stored in a structured JSON object. These files are stored in the [config](src/config) directory.
+Primarily configuration is stored in a structured JSON object. These files are stored in the [config](src/config) directory. This can be overriden by setting the CONFIG_DIR environment variable.
 
 Common configuration is stored in common.js and is merged with environment specific files named after the environment variable _NODE_ENV_. So if _NODE_ENV_ is test, then configuration is common.json + test.json. Where _NODE_ENV_ is not set, then default.json is used.
 
